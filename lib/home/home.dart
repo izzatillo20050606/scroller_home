@@ -10,7 +10,9 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.grey,
-        title: const Text(" what is flag :   UZBEKISTON  👀👀👀  ",),
+        title: const Text(
+          " what is flag :   UZBEKISTON  👀👀👀  ",
+        ),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -40,8 +42,6 @@ class Home extends StatelessWidget {
               height: 200,
               width: 400,
               color: const Color.fromARGB(255, 255, 255, 255),
-             
-              
             ),
           ),
           Container(

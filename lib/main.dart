@@ -17,7 +17,7 @@
 //   }
 // }
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home/home.dart';
+import 'package:flutter_application_1/home_1/home1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,12 +30,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      
       theme: ThemeData(
-      colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
-              useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
+        useMaterial3: true,
       ),
-      home: const Home(),
+      home: const Home1(),
     );
   }
 }
